@@ -38,16 +38,16 @@ export default function FMA() {
                                             </p>
                                         )
                                     })}
-                                <div className="text-center">
+                                {/* <div className="text-center">
                                     <Link to="/to-fma" className="btn-outline">
                                         {t("aboutUs.checkLicence")}
                                     </Link>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
-                        <div className="col-lg-6 col-md-12" style={fmaImgStyle}>
+                        {/* <div className="col-lg-6 col-md-12" style={fmaImgStyle}>
                             {" "}
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </section>
