@@ -128,14 +128,14 @@ ReactDOM.render(
                         return null
                     }}
                 />
-                <Route
+                {/* <Route
                     path="/to-fma"
                     component={() => {
                         window.location.href =
                             "https://www.fma.govt.nz/search-results/?Search=carrick+just+capital+markets&DateFrom=&DateTo=&Sort=&searchlocale=en_NZ&action_getResults=Search"
                         return null
                     }}
-                />
+                /> */}
                 <Route
                     path="/platform-download/goto/android"
                     component={() => {

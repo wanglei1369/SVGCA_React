@@ -342,7 +342,7 @@ export default {
         feesSchedule: "Fees Schedule",
         contractSpecifications: "Contract Specifications",
         productDisclosureStatementMessage:
-            "Our Product Disclosure Statement has been lodged at the Disclose Register and is available at https://disclose-register.companiesoffice.govt.nz/ or from any of our representatives.",
+            "",
         riskWarningAndProductSuitability: "Risk Warning and Product Suitability",
         riskWarningAndProductSuitabilityMessage:
             "Trading in CFDs is risky and losses may be substantial. Trading in CFDs may not be suitable for everyone. Your losses may exceed your initial deposit. You are recommended to seek independent advice and ensure that you are aware of and understand the risks and ensure that the product is suitable for you before trading with us.",

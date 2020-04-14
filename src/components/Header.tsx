@@ -265,7 +265,7 @@ function HeaderComponent() {
                                             </Link>
                                         </div>
                                     </li>
-                                    <li className="nav-item dropdown nav-mobile-i18n">
+                                    {/* <li className="nav-item dropdown nav-mobile-i18n">
                                         <span
                                             className="nav-link dropdown-toggle"
                                             role="button"
@@ -292,7 +292,7 @@ function HeaderComponent() {
                                                 Bahasa Melayu
                                             </a>
                                         </div>
-                                    </li>
+                                    </li> */}
                                     <li className="nav-item">
                                         <Link to="/external-sign-up" className="nav-link">
                                             <span>{t("header.register")}</span>
