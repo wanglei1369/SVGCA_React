@@ -25,27 +25,6 @@ const resources = {
         NotFound: notFoundEn,
         cfd: cfdEn,
     },
-    zh: {
-        translation: translationZh,
-        NotFound: notFoundZh,
-        cfd: cfdZh,
-    },
-    vi: {
-        translation: translationVi,
-        NotFound: notFoundVi,
-    },
-    ko: {
-        translation: translationKo,
-        NotFound: notFoundKo,
-    },
-    th: {
-        translation: translationTh,
-        NotFound: notFoundTh,
-    },
-    ms: {
-        translation: translationMs,
-        NotFound: notFoundMs,
-    },
 }
 
 i18n
