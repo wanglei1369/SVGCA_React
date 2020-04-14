@@ -9,7 +9,7 @@ import dataOilEn from "../data/dataOilEn.json"
 import dataUKOilExpire from "../data/dataUKOilExpireEn.json"
 import dataUSOilExpire from "../data/dataUSOilExpireEn.json"
 import dataWtiEn from "../data/dataWtiEn.json"
-import dataWtiZh from "../data/dataWtiEn.json"
+
 
 const columnsZh = [
     {accessor: "symbol", label: "交易品种", priorityLevel: 1, position: 1, minWidth: 200},

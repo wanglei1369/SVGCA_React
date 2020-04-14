@@ -26,12 +26,12 @@ import thaiLineQRCode from "../images/offices/thai-line.jpg"
 import {useTranslation} from "react-i18next"
 
 function locationBlock(location: string) {
-    const aucklandBgMap = {
-        backgroundImage: `url(${aucklandMap})`,
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "cover",
-    }
+    // const aucklandBgMap = {
+    //     backgroundImage: `url(${aucklandMap})`,
+    //     backgroundPosition: "center",
+    //     backgroundRepeat: "no-repeat",
+    //     backgroundSize: "cover",
+    // }
     const bangkokBgMap = {
         backgroundImage: `url(${bangkokMap})`,
         backgroundPosition: "center",
@@ -105,7 +105,7 @@ function locationBlock(location: string) {
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
     }
-    if (location == "southpacific") {
+    if (location === "southpacific") {
         return (
             <>
                 <div className="office-info">
@@ -138,7 +138,7 @@ function locationBlock(location: string) {
             </>
         )
     }
-    if (location == "southeastasia") {
+    if (location === "southeastasia") {
         return (
             <>
                 <div className="office-info">
@@ -173,7 +173,7 @@ function locationBlock(location: string) {
                     <a
                         href="https://www.openstreetmap.org/way/329630327"
                         className="office-map overlay-golden"
-                        style={kualaLumpurBgMap}></a>
+                        style={kualaLumpurBgMap}>{""}</a>
                 </div>
                 <div className="office-info">
                     <div className="office-detail">
