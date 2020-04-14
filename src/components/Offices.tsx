@@ -9,7 +9,7 @@ import northAmericaImg from "../images/offices/cjc-office-northamerica.jpg"
 import southEastAsiaImg from "../images/offices/cjc-office-southeastasia.jpg"
 import southPacificImg from "../images/offices/cjc-office-southpacific.jpg"
 import eastAsiaImg from "../images/offices/cjc-office-eastasia.jpg"
-import aucklandMap from "../images/offices/map/auckland.jpg"
+// import aucklandMap from "../images/offices/map/auckland.jpg"
 import bangkokMap from "../images/offices/map/bangkok.jpg"
 import beijingMap from "../images/offices/map/beijing.jpg"
 import hanoiMap from "../images/offices/map/hanoi.jpg"
@@ -133,7 +133,7 @@ function locationBlock(location: string) {
                     <a
                         href="https://www.openstreetmap.org/way/329630327"
                         className="office-map overlay-golden"
-                        style={sydneyBgMap}></a>
+        style={sydneyBgMap}>{""}</a>
                 </div>
             </>
         )
@@ -204,7 +204,7 @@ function locationBlock(location: string) {
                     <a
                         href="https://www.openstreetmap.org/way/329630327"
                         className="office-map overlay-golden"
-                        style={hoChiMinhBgMap}></a>
+                                style={hoChiMinhBgMap}>{""}</a>
                 </div>
                 <div className="office-info">
                     <div className="office-detail">
@@ -238,7 +238,7 @@ function locationBlock(location: string) {
                     <a
                         href="https://www.openstreetmap.org/way/329630327"
                         className="office-map overlay-golden"
-                        style={hanoiBgMap}></a>
+                                style={hanoiBgMap}>{""}</a>
                 </div>
                 <div className="office-info">
                     <div className="office-detail">
@@ -271,7 +271,7 @@ function locationBlock(location: string) {
                     <a
                         href="https://www.openstreetmap.org/way/329630327"
                         className="office-map overlay-golden"
-                        style={manilaBgMap}></a>
+                                style={manilaBgMap}>{""}</a>
                 </div>
                 <div className="office-info">
                     <div className="office-detail">
@@ -311,7 +311,7 @@ function locationBlock(location: string) {
                     <a
                         href="https://www.openstreetmap.org/way/329630327"
                         className="office-map overlay-golden"
-                        style={bangkokBgMap}></a>
+                                style={bangkokBgMap}>{""}</a>
                 </div>
             </>
         )
@@ -354,12 +354,12 @@ function locationBlock(location: string) {
                     <a
                         href="https://www.openstreetmap.org/way/329630327"
                         className="office-map overlay-golden"
-                        style={torontoBgMap}></a>
+                            style={torontoBgMap}>{""}</a>
                 </div>
             </>
         )
     }
-    if (location == "mainlandchina") {
+    if (location === "mainlandchina") {
         return (
             <>
                 <div className="office-info">
@@ -394,7 +394,7 @@ function locationBlock(location: string) {
                     <a
                         href="https://www.openstreetmap.org/way/329630327"
                         className="office-map overlay-golden"
-                        style={beijingBgMap}></a>
+                                style={beijingBgMap}>{""}</a>
                 </div>
                 <div className="office-info">
                     <div className="office-detail">
