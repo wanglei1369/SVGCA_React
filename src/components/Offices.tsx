@@ -316,7 +316,7 @@ function locationBlock(location: string) {
             </>
         )
     }
-    if (location == "northamerica") {
+    if (location === "northamerica") {
         return (
             <>
                 <div className="office-info">
@@ -422,7 +422,7 @@ function locationBlock(location: string) {
                     <a
                         href="https://www.openstreetmap.org/way/329630327"
                         className="office-map overlay-golden"
-                        style={harbinBgMap}></a>
+                                style={harbinBgMap}>{""}</a>
                 </div>
                 <div className="office-info">
                     <div className="office-detail">
@@ -450,7 +450,7 @@ function locationBlock(location: string) {
                     <a
                         href="https://www.openstreetmap.org/way/329630327"
                         className="office-map overlay-golden"
-                        style={shanghaiBgMap}></a>
+                                style={shanghaiBgMap}>{""}</a>
                 </div>
                 <div className="office-info">
                     <div className="office-detail">
@@ -480,7 +480,7 @@ function locationBlock(location: string) {
             </>
         )
     }
-    if (location == "eastasia") {
+    if (location === "eastasia") {
         return (
             <>
                 <div className="office-info">
@@ -515,12 +515,12 @@ function locationBlock(location: string) {
                     <a
                         href="https://www.openstreetmap.org/way/329630327"
                         className="office-map overlay-golden"
-                        style={seoulBgMap}></a>
+        style={seoulBgMap}>{""}</a>
                 </div>
             </>
         )
     }
-    if (location == "taiwan") {
+    if (location === "taiwan") {
         return (
             <>
                 <div className="office-info">
@@ -548,7 +548,7 @@ function locationBlock(location: string) {
                     <a
                         href="https://www.openstreetmap.org/way/329630327"
                         className="office-map overlay-golden"
-                        style={taichungBgMap}></a>
+        style={taichungBgMap}>{""}</a>
                 </div>
             </>
         )
@@ -593,23 +593,23 @@ export default function Office() {
         backgroundImage: `url(${taiwanImg})`,
     }
     const changeLocation = (location: string) => {
-        if (location == "southpacific") {
+        if (location === "southpacific") {
             setOfficeLocation("southpacific")
             console.log(typeof southPacificBgImg)
         }
-        if (location == "southeastasia") {
+        if (location === "southeastasia") {
             setOfficeLocation("southeastasia")
         }
-        if (location == "northamerica") {
+        if (location === "northamerica") {
             setOfficeLocation("northamerica")
         }
-        if (location == "mainlandchina") {
+        if (location === "mainlandchina") {
             setOfficeLocation("mainlandchina")
         }
-        if (location == "eastasia") {
+        if (location === "eastasia") {
             setOfficeLocation("eastasia")
         }
-        if (location == "taiwan") {
+        if (location === "taiwan") {
             setOfficeLocation("taiwan")
         }
     }
