@@ -343,20 +343,20 @@ function helpContent(id: number, t: any, language: string) {
             <>
                 <div className="container">
                     <div className="row">
-                        {/* <div className="col-lg-6 mb-30">
+                        <div className="col-lg-6 mb-30">
                             <li className="list-inline-item mx-lg-4 my-lg-0 mx-2 my-2">
                                 <a style={{color: "#000000"}} href="/media/documents/Product-Disclosure-Statement.pdf">
                                     <div className="pdf-download">
                                         <img
                                             src={pdfSVG}
                                             className="img-fluid w-25"
-                                            alt="CJC sclosure Statement"
+                                            alt="CJC Product Disclosure Statement"
                                         />
-                                        <h5 className="pl-3">sclosure Statement</h5>
+                                        <h5 className="pl-3">Product Disclosure Statement</h5>
                                     </div>
                                 </a>
                             </li>
-                        </div> */}
+                        </div>
                         <div className="col-lg-6 mb-30">
                             <li className="list-inline-item mx-lg-4 my-lg-0 mx-2 my-2">
                                 {language.includes("zh") ? (
@@ -400,7 +400,7 @@ function helpContent(id: number, t: any, language: string) {
                                 </a>
                             </li>
                         </div>
-                        {/* <div className="col-lg-6 mb-30">
+                        <div className="col-lg-6 mb-30">
                             <li className="list-inline-item mx-lg-4 my-lg-0 mx-2 my-2">
                                 <a style={{color: "#000000"}} href="/media/documents/Fees-Schedule.pdf">
                                     <div className="pdf-download">
@@ -409,7 +409,7 @@ function helpContent(id: number, t: any, language: string) {
                                     </div>
                                 </a>
                             </li>
-                        </div> */}
+                        </div>
                         <div className="col-lg-6 mb-30">
                             <li className="list-inline-item mx-lg-4 my-lg-0 mx-2 my-2">
                                 <a style={{color: "#000000"}} href="/media/documents/Privacy-Policy.pdf">

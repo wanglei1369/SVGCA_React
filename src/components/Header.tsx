@@ -272,7 +272,7 @@ function HeaderComponent() {
                                             onClick={handleI18nCollapse}>
                                             &#127759;
                                         </span>
-                                        {/* <div className={dropdownI18nStatus}>
+                                        <div className={dropdownI18nStatus}>
                                             <a href="" className="dropdown-item" onClick={() => changeLanguage("zh")}>
                                                 简体中文
                                             </a>
@@ -291,7 +291,7 @@ function HeaderComponent() {
                                             <a href="" className="dropdown-item" onClick={() => changeLanguage("ms")}>
                                                 Bahasa Melayu
                                             </a>
-                                        </div>  */}
+                                        </div>
                                     </li>
                                     <li className="nav-item">
                                         <Link to="/external-sign-up" className="nav-link">

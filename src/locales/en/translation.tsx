@@ -148,10 +148,10 @@ export default {
     aboutUs: {
         brandHistory: "Brand History",
         brandHistoryStory:
-            "CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). Our goal is constantly exploring and discovering new heights in trading technology to provide the most superior and unequaled trading experience for our clients. \nWith the extraordinary customer service, strict financial security and extensive experience, CJC receive regular financial and compliance audits by independent third-party agencies. \nCJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. By continuously focusing on product optimization and improving service quality, we have successfully carried out deep-level cooperation with talented and experienced teams around the world. We have established offices in Australia, Canada, China, Taiwan, Japan, Thailand, Vietnam, Malaysia, the Philippines, and Other Southeast Asian countries. \nJoin us together to develop the CJC Markets global strategy and build a world-class professional one-stop trading platform.",
+            "CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). Our goal is constantly exploring and discovering new heights in trading technology to provide the most superior and unequaled trading experience for our clients. \nWith the extraordinary customer service, strict financial security and extensive experience, CJC have granted a Derivatives Issuer License issued by the Financial Markets Authority, we also receive regular financial and compliance audits by independent third-party agencies. Our FSPR registration number is 569807. CJC also has a Derivatives Issuer License issued by the FINTRAC – Money service Canada, the registration number is M20571687. \nCJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. By continuously focusing on product optimization and improving service quality, we have successfully carried out deep-level cooperation with talented and experienced teams around the world. We have established offices in Australia, Canada, China, Taiwan, Japan, Thailand, Vietnam, Malaysia, the Philippines, and Other Southeast Asian countries. \nJoin us together to develop the CJC Markets global strategy and build a world-class professional one-stop trading platform.",
         licence:
-            "CJC has received regular financial and compliance audits by independent third-party agencies. Our FSPR registration number is 569807. \n",
-        checkLicence: "",
+            "The Financial Markets Authority (FMA) is the New Zealand government agency responsible for enforcing securities, financial reporting and company law as they apply to financial services and securities markets. FMA also regulate securities exchanges, financial advisers and brokers, auditors, trustees and issuers. \nCJC has a Derivatives Issuer License issued by the Financial Markets Authority, we also receive regular financial and compliance audits by independent third-party agencies. Our FSPR registration number is 569807. \nCJC also has a Derivatives Issuer License issued by the FINTRAC – Money service Canada, the registration number is M20571687. \n",
+        checkLicence: "Check Our License on FMA Official Website",
     },
     qna: {
         qnaTitle: "Top FAQs",
@@ -329,7 +329,7 @@ export default {
     footer: {
         about: "About CJC",
         copyrightInfo: "All Rights Reserved",
-        aboutMessage: "Derivatives Issuer License granted",
+        aboutMessage: "Derivatives Issuer License granted by the New Zealand Financial Markets Authority",
         licenseNumber: "FSPR Number",
         links: "Links",
         productsAndServices: "Products and Services",
@@ -348,10 +348,10 @@ export default {
             "Trading in CFDs is risky and losses may be substantial. Trading in CFDs may not be suitable for everyone. Your losses may exceed your initial deposit. You are recommended to seek independent advice and ensure that you are aware of and understand the risks and ensure that the product is suitable for you before trading with us.",
         license: "License",
         licenseMessage:
-            "CJCMarkets Derivatives Issuer License issued by FSPR, registration number is 569807.",
+            "Carrick Just Capital Markets Limited is registered in New Zealand (NZBN number: 9429046269300) and has a Derivatives Issuer License issued by the Financial Markets Authority. FSPR registration number 569807.",
         disclaimer: "Disclaimer",
         disclaimerMessage:
-            "Nothing in this website shall be construed as financial advice or an invitation to buy or sell a product. CJCMarkets does not guarantee the accuracy of timeliness of any information on this website.",
+            "Nothing in this website shall be construed as financial advice or an invitation to buy or sell a product. Carrick Just Capital Markets Limited does not guarantee the accuracy of timeliness of any information on this website.",
         reminder: "Reminder",
         reminderMessage:
             "We do not accept customers who are resident in China and Hong Kong. If you have any questions, please contact our customer service team or the sales representative.",

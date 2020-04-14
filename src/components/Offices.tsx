@@ -9,7 +9,7 @@ import northAmericaImg from "../images/offices/cjc-office-northamerica.jpg"
 import southEastAsiaImg from "../images/offices/cjc-office-southeastasia.jpg"
 import southPacificImg from "../images/offices/cjc-office-southpacific.jpg"
 import eastAsiaImg from "../images/offices/cjc-office-eastasia.jpg"
-// import aucklandMap from "../images/offices/map/auckland.jpg"
+import aucklandMap from "../images/offices/map/auckland.jpg"
 import bangkokMap from "../images/offices/map/bangkok.jpg"
 import beijingMap from "../images/offices/map/beijing.jpg"
 import hanoiMap from "../images/offices/map/hanoi.jpg"
@@ -26,12 +26,12 @@ import thaiLineQRCode from "../images/offices/thai-line.jpg"
 import {useTranslation} from "react-i18next"
 
 function locationBlock(location: string) {
-    // const aucklandBgMap = {
-    //     backgroundImage: `url(${aucklandMap})`,
-    //     backgroundPosition: "center",
-    //     backgroundRepeat: "no-repeat",
-    //     backgroundSize: "cover",
-    // }
+    const aucklandBgMap = {
+        backgroundImage: `url(${aucklandMap})`,
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+    }
     const bangkokBgMap = {
         backgroundImage: `url(${bangkokMap})`,
         backgroundPosition: "center",
@@ -105,7 +105,7 @@ function locationBlock(location: string) {
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
     }
-    if (location === "southpacific") {
+    if (location == "southpacific") {
         return (
             <>
                 <div className="office-info">
@@ -133,12 +133,12 @@ function locationBlock(location: string) {
                     <a
                         href="https://www.openstreetmap.org/way/329630327"
                         className="office-map overlay-golden"
-        style={sydneyBgMap}>{""}</a>
+                        style={sydneyBgMap}></a>
                 </div>
             </>
         )
     }
-    if (location === "southeastasia") {
+    if (location == "southeastasia") {
         return (
             <>
                 <div className="office-info">
@@ -173,7 +173,7 @@ function locationBlock(location: string) {
                     <a
                         href="https://www.openstreetmap.org/way/329630327"
                         className="office-map overlay-golden"
-                        style={kualaLumpurBgMap}>{""}</a>
+                        style={kualaLumpurBgMap}></a>
                 </div>
                 <div className="office-info">
                     <div className="office-detail">
@@ -204,7 +204,7 @@ function locationBlock(location: string) {
                     <a
                         href="https://www.openstreetmap.org/way/329630327"
                         className="office-map overlay-golden"
-                                style={hoChiMinhBgMap}>{""}</a>
+                        style={hoChiMinhBgMap}></a>
                 </div>
                 <div className="office-info">
                     <div className="office-detail">
@@ -238,7 +238,7 @@ function locationBlock(location: string) {
                     <a
                         href="https://www.openstreetmap.org/way/329630327"
                         className="office-map overlay-golden"
-                                style={hanoiBgMap}>{""}</a>
+                        style={hanoiBgMap}></a>
                 </div>
                 <div className="office-info">
                     <div className="office-detail">
@@ -271,7 +271,7 @@ function locationBlock(location: string) {
                     <a
                         href="https://www.openstreetmap.org/way/329630327"
                         className="office-map overlay-golden"
-                                style={manilaBgMap}>{""}</a>
+                        style={manilaBgMap}></a>
                 </div>
                 <div className="office-info">
                     <div className="office-detail">
@@ -311,12 +311,12 @@ function locationBlock(location: string) {
                     <a
                         href="https://www.openstreetmap.org/way/329630327"
                         className="office-map overlay-golden"
-                                style={bangkokBgMap}>{""}</a>
+                        style={bangkokBgMap}></a>
                 </div>
             </>
         )
     }
-    if (location === "northamerica") {
+    if (location == "northamerica") {
         return (
             <>
                 <div className="office-info">
@@ -354,12 +354,12 @@ function locationBlock(location: string) {
                     <a
                         href="https://www.openstreetmap.org/way/329630327"
                         className="office-map overlay-golden"
-                            style={torontoBgMap}>{""}</a>
+                        style={torontoBgMap}></a>
                 </div>
             </>
         )
     }
-    if (location === "mainlandchina") {
+    if (location == "mainlandchina") {
         return (
             <>
                 <div className="office-info">
@@ -394,7 +394,7 @@ function locationBlock(location: string) {
                     <a
                         href="https://www.openstreetmap.org/way/329630327"
                         className="office-map overlay-golden"
-                                style={beijingBgMap}>{""}</a>
+                        style={beijingBgMap}></a>
                 </div>
                 <div className="office-info">
                     <div className="office-detail">
@@ -422,7 +422,7 @@ function locationBlock(location: string) {
                     <a
                         href="https://www.openstreetmap.org/way/329630327"
                         className="office-map overlay-golden"
-                                style={harbinBgMap}>{""}</a>
+                        style={harbinBgMap}></a>
                 </div>
                 <div className="office-info">
                     <div className="office-detail">
@@ -450,7 +450,7 @@ function locationBlock(location: string) {
                     <a
                         href="https://www.openstreetmap.org/way/329630327"
                         className="office-map overlay-golden"
-                                style={shanghaiBgMap}>{""}</a>
+                        style={shanghaiBgMap}></a>
                 </div>
                 <div className="office-info">
                     <div className="office-detail">
@@ -480,7 +480,7 @@ function locationBlock(location: string) {
             </>
         )
     }
-    if (location === "eastasia") {
+    if (location == "eastasia") {
         return (
             <>
                 <div className="office-info">
@@ -515,12 +515,12 @@ function locationBlock(location: string) {
                     <a
                         href="https://www.openstreetmap.org/way/329630327"
                         className="office-map overlay-golden"
-        style={seoulBgMap}>{""}</a>
+                        style={seoulBgMap}></a>
                 </div>
             </>
         )
     }
-    if (location === "taiwan") {
+    if (location == "taiwan") {
         return (
             <>
                 <div className="office-info">
@@ -548,7 +548,7 @@ function locationBlock(location: string) {
                     <a
                         href="https://www.openstreetmap.org/way/329630327"
                         className="office-map overlay-golden"
-        style={taichungBgMap}>{""}</a>
+                        style={taichungBgMap}></a>
                 </div>
             </>
         )
@@ -593,23 +593,23 @@ export default function Office() {
         backgroundImage: `url(${taiwanImg})`,
     }
     const changeLocation = (location: string) => {
-        if (location === "southpacific") {
+        if (location == "southpacific") {
             setOfficeLocation("southpacific")
             console.log(typeof southPacificBgImg)
         }
-        if (location === "southeastasia") {
+        if (location == "southeastasia") {
             setOfficeLocation("southeastasia")
         }
-        if (location === "northamerica") {
+        if (location == "northamerica") {
             setOfficeLocation("northamerica")
         }
-        if (location === "mainlandchina") {
+        if (location == "mainlandchina") {
             setOfficeLocation("mainlandchina")
         }
-        if (location === "eastasia") {
+        if (location == "eastasia") {
             setOfficeLocation("eastasia")
         }
-        if (location === "taiwan") {
+        if (location == "taiwan") {
             setOfficeLocation("taiwan")
         }
     }
