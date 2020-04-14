@@ -6,7 +6,7 @@ import {useTranslation} from "react-i18next"
 
 function SEOComponent() {
     const {t} = useTranslation()
-    const pageTitle = t("pagetitle") + " | Carrick Just Capital"
+    const pageTitle = t("pagetitle") + " | CJCMarkets"
     const pageDesc = t("description")
     return (
         <>

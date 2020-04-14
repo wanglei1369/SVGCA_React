@@ -6,7 +6,7 @@ import Helmet from "react-helmet"
 
 function QUAComponent() {
     const {t} = useTranslation("")
-    const pageTitle = t("qna.qnaTitle") + " | Carrick Just Capital"
+    const pageTitle = t("qna.qnaTitle") + " | CJCmarkets"
     const pageDesc = t("qna.qnaTitle")
     return (
         <>

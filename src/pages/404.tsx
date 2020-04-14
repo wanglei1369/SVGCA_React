@@ -11,7 +11,7 @@ const Loader = () => <div>loading texts...</div>
 
 function NotFoundPageComponent() {
     const {t} = useTranslation("NotFound")
-    const pageTitle = t("NotFound.notFoundTitle") + " | Carrick Just Capital"
+    const pageTitle = t("NotFound.notFoundTitle") + " | CJCMarkets"
     const pageDesc = t("NotFound.notFoundMessage")
 
     return (

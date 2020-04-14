@@ -15,7 +15,7 @@ import advantage6Image from "../images/whyCJC/advantage6.png"
 
 export default function WhyCJC() {
     const {t} = useTranslation("")
-    const pageTitle = t("whyCJC.whyCjcTitle") + " | Carrick Just Capital"
+    const pageTitle = t("whyCJC.whyCjcTitle") + " | CJCMarkets"
     const pageDesc = t("whyCJC.whyCjcMessage")
     const iconStyle = {
         width: "12%",
