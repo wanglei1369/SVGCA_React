@@ -150,7 +150,7 @@ export default {
         brandHistoryStory:
             "CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). Our goal is constantly exploring and discovering new heights in trading technology to provide the most superior and unequaled trading experience for our clients. \nWith the extraordinary customer service, strict financial security and extensive experience, CJC receive regular financial and compliance audits by independent third-party agencies. \nCJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. By continuously focusing on product optimization and improving service quality, we have successfully carried out deep-level cooperation with talented and experienced teams around the world. We have established offices in Australia, Canada, China, Taiwan, Japan, Thailand, Vietnam, Malaysia, the Philippines, and Other Southeast Asian countries. \nJoin us together to develop the CJC Markets global strategy and build a world-class professional one-stop trading platform.",
         licence:
-            "CJC has received regular financial and compliance audits by independent third-party agencies. Our FSPR registration number is 569807. \n",
+            "CJC has received regular financial and compliance audits by independent third-party agencies. Our MSB registration number is M20571687. \n",
         checkLicence: "",
     },
     qna: {

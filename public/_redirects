@@ -3,5 +3,5 @@
 # *** Warning! Your custom domain is not using HTTPS yet ***
 
 # Redirect default Netlify subdomain to primary domain
-http://cjcmarkets-asia.netlify.com/* http://cjcmarkets-svg.com/:splat 301!
-https://cjcmarkets-asia.netlify.com/* https://cjcmarkets-svg.com/:splat 301!
+http://happy-panini-473611.netlify.com/* http://ca.cjcmarkets-svg.com/:splat 301!
+https://happy-panini-473611.netlify.com/* https://ca.cjcmarkets-svg.com/:splat 301!
